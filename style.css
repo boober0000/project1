@@ -5,15 +5,13 @@ body {
 
 .attribution { 
     font-size: 11px;
-    text-align: center;
-    display: block;
- }
+    text-align: center; }
 .attribution a { 
     color: hsl(228, 45%, 44%); 
     }
 
 .container {
-    margin: 5% auto;
+    margin: 15% auto;
     width: 600px;
     height:440px;
     display: flex;
@@ -122,7 +120,7 @@ body {
 
 #verbal { background-color: hsl(166, 100%, 95%);}
 #verbal-a{ 
-    hsl(166, 100%, 37%); 
+    color: hsl(166, 100%, 37%); 
     vertical-align:top;
     }
 
@@ -162,31 +160,5 @@ body {
 
 }
 
- @media screen and (max-width: 767px) {
-    .container {
-        margin: 5% auto;
-        width: 300px;
-        height: 880px;
-        display: grid;
-        border: 1px none;
-        border-radius: 20px;
-        box-shadow: 10px 20px 30px hsl(221, 100%, 96%) ;
-         }
-
-    .score {
-            color: lightgray;
-            border-radius: 20px;
-            text-align: center;   
-            background-image: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%) );   
-            height: 440px;
-            width: 300px;
-            
-           }
-
-           .score-detailed {
-        
-            }
- }
-
-
+ 
  
