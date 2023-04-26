@@ -5,13 +5,15 @@ body {
 
 .attribution { 
     font-size: 11px;
-    text-align: center; }
+    text-align: center;
+    display: block;
+ }
 .attribution a { 
     color: hsl(228, 45%, 44%); 
     }
 
 .container {
-    margin: 15% auto;
+    margin: 5% auto;
     width: 600px;
     height:440px;
     display: flex;
@@ -160,5 +162,31 @@ body {
 
 }
 
- 
+ @media screen and (max-width: 767px) {
+    .container {
+        margin: 5% auto;
+        width: 300px;
+        height: 880px;
+        display: grid;
+        border: 1px none;
+        border-radius: 20px;
+        box-shadow: 10px 20px 30px hsl(221, 100%, 96%) ;
+         }
+
+    .score {
+            color: lightgray;
+            border-radius: 20px;
+            text-align: center;   
+            background-image: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%) );   
+            height: 440px;
+            width: 300px;
+            
+           }
+
+           .score-detailed {
+        
+            }
+ }
+
+
  
